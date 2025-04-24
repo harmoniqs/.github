@@ -1,0 +1,12 @@
+{
+    "name": "Harmoniqs Build Workflow",
+    "description": "Harmoniqs build workflow template.",
+    "iconName": "octicon tools",
+    "categories": [
+        "Julia"
+    ],
+    "filePatterns": [
+        "Project.toml$",
+        ".*\\.jl$"
+    ]
+}
