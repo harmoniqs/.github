@@ -1,0 +1,12 @@
+{
+    "name": "Harmoniqs Julia Documentation Build",
+    "description": "Preconfigured Julia documentation generation workflow for Harmoniqs org.",
+    "iconName": "octicon book",
+    "categories": [
+        "Julia"
+    ],
+    "filePatterns": [
+        "Project.toml$",
+        ".*\\.jl$"
+    ]
+}
