@@ -31,7 +31,7 @@ jobs:
     # for cache + old deploy
     permissions:
       actions: write
-      contents: read-write
+      contents: write
     
     name: Julia Build Docs ${{ matrix.version }} - ${{ matrix.arch }} - ${{ github.event_name }}
     continue-on-error: ${{ inputs.continue-on-error }}
