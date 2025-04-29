@@ -51,10 +51,10 @@ jobs:
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }} # If authenticating with SSH deploy key
         run: julia --project=docs docs/make.jl
       - name: Save Julia depot cache on cancel or failure
-      id: julia-cache-save
-      if: cancelled() || failure()
-      uses: actions/cache/save@v4
-      with: 
-        path: |
-          ${{ steps.julia-cache.outputs.cache-paths }}
-        key: ${{ steps.julia-cache.outputs.cache-key }}
+        id: julia-cache-save
+        if: cancelled() || failure()
+        uses: actions/cache/save@v4
+        with: 
+          path: |
+            ${{ steps.julia-cache.outputs.cache-paths }}
+          key: ${{ steps.julia-cache.outputs.cache-key }}
