@@ -1,6 +1,6 @@
 {
-    "name": "Harmoniqs Build Workflow",
-    "description": "Harmoniqs build workflow template.",
+    "name": "Harmoniqs Julia Package Build",
+    "description": "Preconfigured Julia package build workflow for Harmoniqs org.",
     "iconName": "octicon tools",
     "categories": [
         "Julia"

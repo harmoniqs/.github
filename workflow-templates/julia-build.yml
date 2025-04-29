@@ -1,4 +1,4 @@
-name: "Reusable Build Workflow"
+name: "Julia Build Workflow Harmoniqs"
 
 on:
   workflow_call:
@@ -53,6 +53,6 @@ jobs:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
       - uses: julia-actions/cache@v2
-      # with:
-      #     token: "${{ secrets.GITHUB_TOKEN }}"
+        # with: 
+        #   cache-name: julia-cache;workflow=${{ github.workflow }}-${{ hashFiles(Project.toml) }};
       - uses: julia-actions/julia-buildpkg@v1
