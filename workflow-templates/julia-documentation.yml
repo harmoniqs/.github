@@ -1,7 +1,6 @@
 name: Julia Documentation Workflow Harmoniqs
 
 on:
-  on:
   workflow_call:
     inputs:
       self-hosted:
