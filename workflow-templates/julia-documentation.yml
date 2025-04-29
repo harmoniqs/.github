@@ -28,7 +28,7 @@ jobs:
       actions: write
       contents: write
     
-    name: Julia Build Docs ${{ matrix.version }} - ${{ matrix.arch }} - ${{ github.event_name }}
+    name: Julia Build Docs ${{ github.event_name }}
     runs-on: ubuntu-latest
 
     steps:
