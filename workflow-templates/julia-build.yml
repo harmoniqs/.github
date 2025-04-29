@@ -1,10 +1,5 @@
 name: "Julia Build Workflow Harmoniqs"
 
-# for cache
-permissions:
-  actions: write
-  contents: read
-
 on:
   workflow_call:
     inputs:
@@ -20,6 +15,7 @@ on:
         type: string
       continue-on-error:
         description: "Prevent the workflow run from failing if/when the job fails"
+        default: false
         required: false
         type: boolean
   push:
@@ -39,9 +35,15 @@ permissions:
 
 jobs:
   build-proj:
+    # for cache
+    permissions:
+      actions: write
+      contents: read
+
     name: Julia Build ${{ matrix.version }} - ${{ matrix.arch }} - ${{ github.event_name }}
     continue-on-error: ${{ inputs.continue-on-error }}
     runs-on: "${{ inputs.self-hosted && 'self-hosted' || inputs.os }}"
+    
     strategy:
       fail-fast: false
       matrix:
