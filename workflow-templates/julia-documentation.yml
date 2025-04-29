@@ -13,11 +13,6 @@ on:
         default: "ubuntu-latest"
         required: false
         type: string
-      continue-on-error:
-        description: "Prevent the workflow run from failing if/when the job fails"
-        default: false
-        required: false
-        type: boolean
 
   push:
     branches: [ $default-branch ]
@@ -34,7 +29,6 @@ jobs:
       contents: write
     
     name: Julia Build Docs ${{ matrix.version }} - ${{ matrix.arch }} - ${{ github.event_name }}
-    continue-on-error: ${{ inputs.continue-on-error }}
     runs-on: ubuntu-latest
 
     steps:
