@@ -16,3 +16,5 @@ May 28 - June 11, 2025. [unitaryHACK](https://unitaryhack.dev/) is a virtual eve
 * [Support building QObjEvo (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories #27](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27)
 * [Feature: Leakage suppression objective #203](https://github.com/harmoniqs/QuantumCollocation.jl/issues/203)
 * [Bloch sphere plots from NamedTrajectory #19](https://github.com/harmoniqs/PiccoloPlots.jl/issues/19)
+Bonus issue (sponsored by Harmoniqs):
+* [Linear sum and symmetry constraints #20](https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20)
