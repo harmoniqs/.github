@@ -11,12 +11,13 @@
 
 From May 28 - June 11, 2025, the [unitaryHACK](https://unitaryhack.dev/) is a virtual event encouraging people to make contributions to the open source quantum ecosystem.
 
-* [Increase codecov coverage to 80%, or higher 😄 #204](https://github.com/harmoniqs/QuantumCollocation.jl/issues/204)
+* [~~Increase codecov coverage to 80%, or higher 😄 #204~~](https://github.com/harmoniqs/QuantumCollocation.jl/issues/204) @martin-klacan
 * [Increase codecov coverage to 95%, or higher 😄  #28](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/28)
-* [Support building QObjEvo (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories #27](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27)
-* [Feature: Leakage suppression objective #203](https://github.com/harmoniqs/QuantumCollocation.jl/issues/203)
+* [Support building QObjEvo (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories #27](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27) @martin-klacan
+* [~~Feature: Leakage suppression objective #203~~](https://github.com/harmoniqs/QuantumCollocation.jl/issues/203)
 * [Bloch sphere plots from NamedTrajectory #19](https://github.com/harmoniqs/PiccoloPlots.jl/issues/19)
 
 
 Bonus issue (sponsored by Harmoniqs):
-* [Linear sum and symmetry constraints #20](https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20)
+* [~~Linear sum and symmetry constraints #20~~](https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20) @BBhattacharyya1729
+
