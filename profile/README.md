@@ -15,7 +15,7 @@ From May 28 - June 11, 2025, the [unitaryHACK](https://unitaryhack.dev/) is a vi
 * [Increase codecov coverage to 95%, or higher 😄  #28](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/28)
 * [~~Support building QObjEvo (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories #27~~](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27) @Fe-r-oz
 * [~~Feature: Leakage suppression objective #203~~](https://github.com/harmoniqs/QuantumCollocation.jl/issues/203)  @martin-klacan
-* [Bloch sphere plots from NamedTrajectory #19](https://github.com/harmoniqs/PiccoloPlots.jl/issues/19)
+* [~~Bloch sphere plots from NamedTrajectory #19~~](https://github.com/harmoniqs/PiccoloPlots.jl/issues/19) @s-a-s-h
 
 
 Bonus issue (sponsored by Harmoniqs):
