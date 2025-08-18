@@ -6,7 +6,7 @@
 
 👩‍💻 Check out [harmoniqs.co](https://www.harmoniqs.co/) and [docs.harmoniqs.co](https://docs.harmoniqs.co) to see our landing page and our docs respectively
 
-
+<!--
 ## Unitary HACK issues
 
 From May 28 - June 11, 2025, the [unitaryHACK](https://unitaryhack.dev/) is a virtual event encouraging people to make contributions to the open source quantum ecosystem.
@@ -20,4 +20,4 @@ From May 28 - June 11, 2025, the [unitaryHACK](https://unitaryhack.dev/) is a vi
 
 Bonus issue (sponsored by Harmoniqs):
 * [~~Linear sum and symmetry constraints #20~~](https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20) @BBhattacharyya1729
-
+-->
