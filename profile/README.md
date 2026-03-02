@@ -121,12 +121,6 @@ Applying novel quantum optimal control approaches to design integrated solutions
 <tr>
 <td width="33%">
 
-**💻 QCK**
-
-Maximizing classical-quantum hardware integration to make the most of classical resources in quantum computing architectures.
-
-</td>
-<td width="33%">
 
 **🎓 NYU**
 
