@@ -168,6 +168,6 @@ Interested in collaborating? [Reach out to us](https://www.harmoniqs.ai/company#
 
 <div align="center">
 
-Built with ❤️ by the Harmoniqs team &nbsp;·&nbsp; [harmoniqs.co](https://harmoniqs.co) &nbsp;·&nbsp; MIT License
+Built with ❤️ by the Harmoniqs team &nbsp;·&nbsp; [harmoniqs.co](https://harmoniqs.ai) &nbsp;·&nbsp; MIT License
 
 </div>
