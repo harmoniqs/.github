@@ -119,23 +119,24 @@ Applying novel quantum optimal control approaches to design integrated solutions
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="33%">
 
 **💻 QCK**
 
 Maximizing classical-quantum hardware integration to make the most of classical resources in quantum computing architectures.
 
 </td>
-<td width="50%">
+<td width="33%">
 
 **🎓 NYU**
 
 Driving innovation in bosonic encodings for quantum error correction, navigating large state spaces with fine-tuned control.
 
 </td>
+<td width="33%">
+</td>
 </tr>
 </table>
-
 ---
 
 ## 🤝 Get Involved
