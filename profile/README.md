@@ -9,7 +9,6 @@
 ![Julia](https://img.shields.io/badge/language-Julia-9558B2?style=flat-square&logo=julia)
 ![MIT License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
 [![Docs](https://img.shields.io/badge/docs-docs.harmoniqs.co-blue?style=flat-square)](https://docs.harmoniqs.co)
-[![Discord](https://img.shields.io/badge/chat-Unitary_Discord-5865F2?style=flat-square&logo=discord)](https://discord.unitary.foundation)
 
 </div>
 
@@ -21,7 +20,7 @@
 
 ### 🤖 → ⚛️ &nbsp;Why robotics?
 
-Robotic arms and quantum gates share a deep structure: both require steering a dynamical system along an optimal path. We port battle-tested trajectory optimization methods from robotics into quantum control.
+Robotic arms and quantum gates share a deep structure: both require steering a dynamical system along an optimal path. We port industry-tested trajectory optimization methods from robotics into quantum control.
 
 </td>
 <td width="50%">
