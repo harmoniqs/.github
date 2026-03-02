@@ -119,21 +119,19 @@ Applying novel quantum optimal control approaches to design integrated solutions
 </td>
 </tr>
 <tr>
-<td width="33%">
+<td width="50%">
 
 **💻 QCK**
 
 Maximizing classical-quantum hardware integration to make the most of classical resources in quantum computing architectures.
 
 </td>
-<td width="33%">
+<td width="50%">
 
 **🎓 NYU**
 
 Driving innovation in bosonic encodings for quantum error correction, navigating large state spaces with fine-tuned control.
 
-</td>
-<td width="33%">
 </td>
 </tr>
 </table>
@@ -146,14 +144,8 @@ Driving innovation in bosonic encodings for quantum error correction, navigating
 <tr>
 <td align="center" width="33%">
 
-**💬 Discord**<br>
-Chat with us on the [Unitary Foundation Discord](https://discord.unitary.foundation) in the #piccolo channel
-
-</td>
-<td align="center" width="33%">
-
-**🐛 Contribute**<br>
-Open issues, submit PRs, or pick up a good first issue in any repo
+**💬 Slack**<br>
+Join our [Slack community](https://join.slack.com/share/enQtMTA2MTQyOTEzNjg3ODYtODliMjllOGY4YjI3NzgwN2UyZTFlYjY3OTI0YWY3Nzc5OTJlY2MxY2NiZTk4YzNhYjc5ZWIyNzAyMzgxODdkYg) to chat with the team
 
 </td>
 <td align="center" width="33%">
@@ -162,8 +154,15 @@ Open issues, submit PRs, or pick up a good first issue in any repo
 Full tutorials and API reference at [docs.harmoniqs.co](https://docs.harmoniqs.co)
 
 </td>
+<td align="center" width="33%">
+
+**👋 Work With Us**<br>
+Interested in collaborating? [Reach out to us](https://www.harmoniqs.ai/company#careers)
+
+</td>
 </tr>
 </table>
+
 
 ---
 
