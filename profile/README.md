@@ -1,23 +1,174 @@
-## Hi there 👋
+<div align="center">
 
-🙋‍♀️ We are building next-level fine-tuned optimal control for quantum inspired by robotics
+# Harmoniqs
 
-🌟 We have a number of active repos, make a PR! or message us on the [unitary foundation discord](http://discord.unitary.foundation/) for Piccolo.jl and associated packages
+**Next-generation quantum optimal control — built on ideas from robotics trajectory optimization.**
 
-👩‍💻 Check out [harmoniqs.co](https://www.harmoniqs.co/) and [docs.harmoniqs.co](https://docs.harmoniqs.co) to see our landing page and our docs respectively
+![Actively Maintained](https://img.shields.io/badge/status-actively_maintained-brightgreen?style=flat-square)
+![Julia](https://img.shields.io/badge/language-Julia-9558B2?style=flat-square&logo=julia)
+![MIT License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
+[![Docs](https://img.shields.io/badge/docs-docs.harmoniqs.co-blue?style=flat-square)](https://docs.harmoniqs.co)
+[![Discord](https://img.shields.io/badge/chat-Unitary_Discord-5865F2?style=flat-square&logo=discord)](https://discord.unitary.foundation)
 
-<!--
-## Unitary HACK issues
+</div>
 
-From May 28 - June 11, 2025, the [unitaryHACK](https://unitaryhack.dev/) is a virtual event encouraging people to make contributions to the open source quantum ecosystem.
+---
 
-* [~~Increase codecov coverage to 80%, or higher 😄 #204~~](https://github.com/harmoniqs/QuantumCollocation.jl/issues/204) @martin-klacan
-* [Increase codecov coverage to 95%, or higher 😄  #28](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/28)
-* [~~Support building QObjEvo (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories #27~~](https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27) @Fe-r-oz
-* [~~Feature: Leakage suppression objective #203~~](https://github.com/harmoniqs/QuantumCollocation.jl/issues/203)  @martin-klacan
-* [~~Bloch sphere plots from NamedTrajectory #19~~](https://github.com/harmoniqs/PiccoloPlots.jl/issues/19) @s-a-s-h
+<table>
+<tr>
+<td width="50%">
 
+### 🤖 → ⚛️ &nbsp;Why robotics?
 
-Bonus issue (sponsored by Harmoniqs):
-* [~~Linear sum and symmetry constraints #20~~](https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20) @BBhattacharyya1729
--->
+Robotic arms and quantum gates share a deep structure: both require steering a dynamical system along an optimal path. We port battle-tested trajectory optimization methods from robotics into quantum control.
+
+</td>
+<td width="50%">
+
+### 🎯 &nbsp;What we solve
+
+High-fidelity gate synthesis, pulse optimization, and open-loop control for quantum hardware — with fine-grained control over constraints, costs, and solver backends.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📦 Packages
+
+<table>
+<tr>
+<td width="50%">
+
+### [`Piccolo.jl`](https://github.com/harmoniqs/Piccolo.jl) &nbsp;`flagship`
+
+Solve quantum optimal control problems using direct trajectory optimization. Define your system, constraints, and objectives — Piccolo handles the rest.
+
+> **→ Use this first.** High-level interface for gate synthesis & pulse optimization.
+
+![Stars](https://img.shields.io/github/stars/harmoniqs/Piccolo.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/Piccolo.jl?style=flat-square)
+
+</td>
+<td width="50%">
+
+### [`DirectTrajOpt.jl`](https://github.com/harmoniqs/DirectTrajOpt.jl) &nbsp;`core`
+
+Low-level abstractions for direct collocation and shooting methods. Build custom trajectory optimization pipelines with full control over discretization and solver setup.
+
+> **→ Use this** when you need to go beyond Piccolo's defaults.
+
+![Stars](https://img.shields.io/github/stars/harmoniqs/DirectTrajOpt.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/DirectTrajOpt.jl?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [`NamedTrajectories.jl`](https://github.com/harmoniqs/NamedTrajectories.jl) &nbsp;`utility`
+
+A lightweight data structure for working with trajectories keyed by user-defined component names. Makes trajectory data ergonomic to inspect, slice, and pass between solvers.
+
+> **→ Use this** for trajectory post-processing or standalone trajectory handling.
+
+![Stars](https://img.shields.io/github/stars/harmoniqs/NamedTrajectories.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/NamedTrajectories.jl?style=flat-square)
+
+</td>
+<td width="50%">
+
+### [`PiccoloMultidocs.jl`](https://github.com/harmoniqs/PiccoloMultidocs.jl) &nbsp;`docs`
+
+Unified documentation tooling across the Piccolo ecosystem. Keeps cross-package docs consistent and co-located.
+
+> **→ For contributors** working across multiple Harmoniqs packages.
+
+![Stars](https://img.shields.io/github/stars/harmoniqs/PiccoloMultidocs.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/PiccoloMultidocs.jl?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🤝 Collaborations
+
+*Enabling quantum technology for researchers and institutions worldwide.*
+
+<table>
+<tr>
+<td width="33%">
+
+**🎓 Harvard University**
+
+Systematically benchmarking the expressivity of neutral atom arrays by engineering effective quantum interactions under various control regimes.
+
+</td>
+<td width="33%">
+
+**🎓 Stanford University**
+
+Designing and testing new hardware by developing novel integrated controls for complex quantum systems.
+
+</td>
+<td width="33%">
+
+**⚡ Infleqtion**
+
+Applying novel quantum optimal control approaches to design integrated solutions for quantum sensing applications.
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+**💻 QCK**
+
+Maximizing classical-quantum hardware integration to make the most of classical resources in quantum computing architectures.
+
+</td>
+<td width="33%">
+
+**🎓 NYU**
+
+Driving innovation in bosonic encodings for quantum error correction, navigating large state spaces with fine-tuned control.
+
+</td>
+<td width="33%">
+</td>
+</tr>
+</table>
+
+---
+
+## 🤝 Get Involved
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**💬 Discord**<br>
+Chat with us on the [Unitary Foundation Discord](https://discord.unitary.foundation) in the #piccolo channel
+
+</td>
+<td align="center" width="33%">
+
+**🐛 Contribute**<br>
+Open issues, submit PRs, or pick up a good first issue in any repo
+
+</td>
+<td align="center" width="33%">
+
+**📖 Docs & Examples**<br>
+Full tutorials and API reference at [docs.harmoniqs.co](https://docs.harmoniqs.co)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+Built with ❤️ by the Harmoniqs team &nbsp;·&nbsp; [harmoniqs.co](https://harmoniqs.co) &nbsp;·&nbsp; MIT License
+
+</div>
