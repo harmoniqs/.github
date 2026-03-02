@@ -1,8 +1,7 @@
 <div align="center">
 
-<div align="center">
-  <img src="./harmoniqs-title.svg" alt="Harmoniqs" />
-</div>
+<img src="./harmoniqs-title.svg" alt="Harmoniqs" />
+
 
 **Next-generation quantum optimal control — built on ideas from robotics trajectory optimization.**
 
