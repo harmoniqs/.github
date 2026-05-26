@@ -52,37 +52,13 @@ Solve quantum optimal control problems using direct trajectory optimization. Def
 </td>
 <td width="50%">
 
-### [`DirectTrajOpt.jl`](https://github.com/harmoniqs/DirectTrajOpt.jl) &nbsp;`core`
+### [`Stretto.jl`](https://github.com/harmoniqs/Stretto.jl) &nbsp;`compiler`
 
-Low-level abstractions for direct collocation and shooting methods. Build custom trajectory optimization pipelines with full control over discretization and solver setup.
+Circuit-to-pulse compilation layer built on Piccolo. Treats a gate-level circuit as a single unitary and synthesizes one optimized control pulse for the whole block — skipping gate decomposition and gate-boundary error accumulation.
 
-> **→ Use this** when you need to go beyond Piccolo's defaults.
+> **→ Use this** to compile circuits (e.g. QEC syndrome blocks) directly to hardware pulses.
 
-![Stars](https://img.shields.io/github/stars/harmoniqs/DirectTrajOpt.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/DirectTrajOpt.jl?style=flat-square)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### [`NamedTrajectories.jl`](https://github.com/harmoniqs/NamedTrajectories.jl) &nbsp;`utility`
-
-A lightweight data structure for working with trajectories keyed by user-defined component names. Makes trajectory data ergonomic to inspect, slice, and pass between solvers.
-
-> **→ Use this** for trajectory post-processing or standalone trajectory handling.
-
-![Stars](https://img.shields.io/github/stars/harmoniqs/NamedTrajectories.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/NamedTrajectories.jl?style=flat-square)
-
-</td>
-<td width="50%">
-
-### [`PiccoloMultidocs.jl`](https://github.com/harmoniqs/PiccoloMultidocs.jl) &nbsp;`docs`
-
-Unified documentation tooling across the Piccolo ecosystem. Keeps cross-package docs consistent and co-located.
-
-> **→ For contributors** working across multiple Harmoniqs packages.
-
-![Stars](https://img.shields.io/github/stars/harmoniqs/PiccoloMultidocs.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/PiccoloMultidocs.jl?style=flat-square)
+![Stars](https://img.shields.io/github/stars/harmoniqs/Stretto.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/Stretto.jl?style=flat-square)
 
 </td>
 </tr>
