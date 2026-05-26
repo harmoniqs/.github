@@ -20,7 +20,7 @@
 
 ### 🤖 → ⚛️ &nbsp;Why robotics?
 
-Robotic arms and quantum gates share a deep structure: both require steering a dynamical system along an optimal path. We port industry-tested trajectory optimization methods from robotics into quantum control.
+Robotics and quantum gates both share a deep structure. They both require steering a dynamical system along an optimal path. We port industry-tested trajectory optimization methods from robotics into quantum control.
 
 </td>
 <td width="50%">
