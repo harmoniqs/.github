@@ -52,13 +52,13 @@ Solve quantum optimal control problems using direct trajectory optimization. Def
 </td>
 <td width="50%">
 
-### [`Stretto.jl`](https://github.com/harmoniqs/Stretto.jl) &nbsp;`compiler`
+### [`Legato.jl`](https://github.com/harmoniqs/Legato.jl) &nbsp;`compiler`
 
 Circuit-to-pulse compilation layer built on Piccolo. Treats a gate-level circuit as a single unitary and synthesizes one optimized control pulse for the whole block — skipping gate decomposition and gate-boundary error accumulation.
 
 > **→ Use this** to compile circuits (e.g. QEC syndrome blocks) directly to hardware pulses.
 
-![Stars](https://img.shields.io/github/stars/harmoniqs/Stretto.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/Stretto.jl?style=flat-square)
+![Stars](https://img.shields.io/github/stars/harmoniqs/Legato.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/Legato.jl?style=flat-square)
 
 </td>
 </tr>
