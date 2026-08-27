@@ -1,144 +1,64 @@
 <div align="center">
 
-<img src="./harmoniqs-title.svg" alt="Harmoniqs" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./harmoniqs-banner-dark.svg">
+  <img src="./harmoniqs-banner-light.svg" alt="Harmoniqs" width="640">
+</picture>
 
+**Autonomous research, starting with quantum.**
 
-**Next-generation quantum optimal control — built on ideas from robotics trajectory optimization.**
+For researchers, by researchers.
 
-![Actively Maintained](https://img.shields.io/badge/status-actively_maintained-brightgreen?style=flat-square)
-![Julia](https://img.shields.io/badge/language-Julia-9558B2?style=flat-square&logo=julia)
-![MIT License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
+[![Website](https://img.shields.io/badge/website-harmoniqs.ai-blue?style=flat-square)](https://harmoniqs.ai)
 [![Docs](https://img.shields.io/badge/docs-docs.harmoniqs.co-blue?style=flat-square)](https://docs.harmoniqs.co)
+[![Request access](https://img.shields.io/badge/request_access-app.harmoniqs.ai-blue?style=flat-square)](https://app.harmoniqs.ai/)
+![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="50%">
+## [Amicode](https://github.com/harmoniqs/amicode) — your open autonomous research interface
 
-### 🤖 → ⚛️ &nbsp;Why robotics?
+Describe what you want in plain language — a gate, a state preparation, a calibration sweep — and [Amico](https://harmoniqs.ai/amico) authors a self-contained Piccolo.jl optimization from it, runs the solve, and streams the result to native panels. Every run is captured, every pulse versioned for warm-start, and every session distilled into durable knowledge — the loop gets smarter as you use it.
 
-Robotics and quantum gates both share a deep structure. They both require steering a dynamical system along an optimal path. We port industry-tested trajectory optimization methods from robotics into quantum control.
+Every capability is one face of the same loop — authored here, run on hardware, read back into memory.
 
-</td>
-<td width="50%">
-
-### 🎯 &nbsp;What we solve
-
-High-fidelity gate synthesis, pulse optimization, and open-loop control for quantum hardware — with fine-grained control over constraints, costs, and solver backends.
-
-</td>
-</tr>
-</table>
+[![VS Code Marketplace](https://img.shields.io/badge/vs_code_marketplace-install-blue?style=flat-square&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=harmoniqs.amicode)
+[![GitHub](https://img.shields.io/badge/github-harmoniqs/amicode-blue?style=flat-square&logo=github)](https://github.com/harmoniqs/amicode)
 
 ---
 
-## 📦 Packages
+## The quantum toolkit
 
-<table>
-<tr>
-<td width="50%">
+Built from first principles, used to realize a self-running quantum computer.
 
-### [`Piccolo.jl`](https://github.com/harmoniqs/Piccolo.jl) &nbsp;`flagship`
+### [Piccolo.jl](https://github.com/harmoniqs/Piccolo.jl) — Optimize
 
-Solve quantum optimal control problems using direct trajectory optimization. Define your system, constraints, and objectives — Piccolo handles the rest.
+Best-in-class, locally runnable pulse optimization and simulation toolbox. Solve quantum optimal control problems with direct trajectory optimization.
 
-> **→ Use this first.** High-level interface for gate synthesis & pulse optimization.
+### [Legato.jl](https://github.com/harmoniqs/Legato.jl) — Compile
 
-![Stars](https://img.shields.io/github/stars/harmoniqs/Piccolo.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/Piccolo.jl?style=flat-square)
+Compile quantum circuits to single optimized pulses — treating a gate block as one unitary skips gate decomposition and gate-boundary error accumulation.
 
-</td>
-<td width="50%">
+### [Intonato.jl](https://github.com/harmoniqs/Intonato.jl) — Calibrate
 
-### [`Legato.jl`](https://github.com/harmoniqs/Legato.jl) &nbsp;`compiler`
+Closed-loop pulse tuning of quantum hardware, built on the Piccolo ecosystem. Hardware interfacing, measurement handling, and calibration algorithms.
 
-Circuit-to-pulse compilation layer built on Piccolo. Treats a gate-level circuit as a single unitary and synthesizes one optimized control pulse for the whole block — skipping gate decomposition and gate-boundary error accumulation.
+<sub>Foundations: [DirectTrajOpt.jl](https://github.com/harmoniqs/DirectTrajOpt.jl) · [NamedTrajectories.jl](https://github.com/harmoniqs/NamedTrajectories.jl)</sub>
 
-> **→ Use this** to compile circuits (e.g. QEC syndrome blocks) directly to hardware pulses.
-
-![Stars](https://img.shields.io/github/stars/harmoniqs/Legato.jl?style=flat-square) ![Forks](https://img.shields.io/github/forks/harmoniqs/Legato.jl?style=flat-square)
-
-</td>
-</tr>
-</table>
+<sub>Premium tiers — Piccolissimo, Legatissimo, Intonatissimo — available by [request](https://app.harmoniqs.ai/).</sub>
 
 ---
 
-## 🤝 Collaborations
+## Research
 
-*Enabling quantum technology for researchers and institutions worldwide.*
-
-<table>
-<tr>
-<td width="33%">
-
-**🎓 Harvard University**
-
-Systematically benchmarking the expressivity of neutral atom arrays by engineering effective quantum interactions under various control regimes.
-
-</td>
-<td width="33%">
-
-**🎓 Stanford University**
-
-Designing and testing new hardware by developing novel integrated controls for complex quantum systems.
-
-</td>
-<td width="33%">
-
-**⚡ Infleqtion**
-
-Applying novel quantum optimal control approaches to design integrated solutions for quantum sensing applications.
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-
-**🎓 NYU**
-
-Driving innovation in bosonic encodings for quantum error correction, navigating large state spaces with fine-tuned control.
-
-</td>
-<td width="33%">
-</td>
-</tr>
-</table>
----
-
-## 🤝 Get Involved
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-**💬 Slack**<br>
-Join our [Slack community](https://join.slack.com/share/enQtMTA2MTQyOTEzNjg3ODYtODliMjllOGY4YjI3NzgwN2UyZTFlYjY3OTI0YWY3Nzc5OTJlY2MxY2NiZTk4YzNhYjc5ZWIyNzAyMzgxODdkYg) to chat with the team
-
-</td>
-<td align="center" width="33%">
-
-**📖 Docs & Examples**<br>
-Full tutorials and API reference at [docs.harmoniqs.co](https://docs.harmoniqs.co)
-
-</td>
-<td align="center" width="33%">
-
-**👋 Work With Us**<br>
-Interested in collaborating? [Reach out to us](https://www.harmoniqs.ai/company#careers)
-
-</td>
-</tr>
-</table>
-
+For researchers, by researchers — quantum control in the loop with Stanford, Harvard, Fermilab QICK, Johns Hopkins APL, CMU & UChicago, Infleqtion, and NYU. [harmoniqs.ai/research](https://harmoniqs.ai/research)
 
 ---
 
 <div align="center">
 
-Built with ❤️ by the Harmoniqs team &nbsp;·&nbsp; [harmoniqs.co](https://harmoniqs.ai) &nbsp;·&nbsp; MIT License
+[harmoniqs.ai](https://harmoniqs.ai) · [docs.harmoniqs.co](https://docs.harmoniqs.co) · [app.harmoniqs.ai](https://app.harmoniqs.ai/) · MIT License
 
 </div>
