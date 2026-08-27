@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 176" fill="none">
+  <text x="380" y="88" text-anchor="middle" font-family="'Aero', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700" font-size="64" letter-spacing="8" fill="#f0f6fc">HARMONIQS</text>
+  <line x1="120" y1="148" x2="640" y2="148" stroke="#6e7681" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 160 148 L 210 148 C 232 148 246 108 268 108 L 492 108 C 514 108 528 148 550 148 L 600 148 Z" fill="#FFE614" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
