@@ -8,7 +8,7 @@
       }
     </style>
   </defs>
-  <text x="380" y="88" text-anchor="middle" font-family="Racing Sans One, 'Aero', ui-sans-serif, system-ui, sans-serif" font-weight="400" font-size="64" letter-spacing="6" fill="#24292f">HARMONIQS</text>
+  <text x="380" y="88" text-anchor="middle" font-family="Racing Sans One, 'Aero', ui-sans-serif, system-ui, sans-serif" font-weight="400" font-size="64" letter-spacing="2" fill="#24292f">Harmoniqs</text>
   <line x1="120" y1="148" x2="640" y2="148" stroke="#57606a" stroke-width="1.5" stroke-linecap="round"/>
   <path d="M 160 148 L 210 148 C 232 148 246 108 268 108 L 492 108 C 514 108 528 148 550 148 L 600 148 Z" fill="#FFE614" stroke="#24292f" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>
